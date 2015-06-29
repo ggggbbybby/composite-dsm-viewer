@@ -15,7 +15,15 @@
 </head>
 <body class="<%= body_class %>">
   <%= render "flashes" -%>
-  <%= yield %>
+  <div class="waiting">
+    <div class="loading-rotor"></div>
+    <p>
+      data loading, please wait
+    </p>
+  </div>
+  <div class="loaded">
+    <%= yield %>
+  </div>
   <%= render "javascript" %>
 </body>
 </html>

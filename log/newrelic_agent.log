@@ -252,3 +252,151 @@
 [06/28/15 14:07:59 -0700 Beckys-MacBook-Air.local (56428)] INFO : Dispatcher: delayed_job
 [06/28/15 14:07:59 -0700 Beckys-MacBook-Air.local (56428)] INFO : Application: dsm_viewer
 [06/28/15 14:07:59 -0700 Beckys-MacBook-Air.local (56428)] WARN : Agent configured not to send data in this environment.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Environment: development
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : No known dispatcher detected.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Application: dsm_viewer
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] WARN : Agent configured not to send data in this environment.
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing ActiveJob instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Net instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing deferred Rack instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 17:50:10 -0700 Beckys-MacBook-Air.local (60034)] INFO : Finished instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Environment: development
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Dispatcher: unicorn
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Application: dsm_viewer
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] WARN : Agent configured not to send data in this environment.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing ActiveJob instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Net instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing deferred Rack instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing ActiveJob instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Net instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing deferred Rack instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 18:48:35 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60985)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60985)] INFO : Finished instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Finished instrumentation
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60985)] INFO : Doing deferred dependency-detection before Rack startup
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Environment: development
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Dispatcher: delayed_job
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] INFO : Application: dsm_viewer
+[06/28/15 18:48:36 -0700 Beckys-MacBook-Air.local (60986)] WARN : Agent configured not to send data in this environment.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Environment: development
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Dispatcher: unicorn
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Application: dsm_viewer
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] WARN : Agent configured not to send data in this environment.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61163)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61163)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61163)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61163)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing ActiveJob instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Net instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing deferred Rack instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 18:50:19 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing ActiveJob instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Net instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing deferred Rack instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61162)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61162)] INFO : Finished instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Finished instrumentation
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61162)] INFO : Doing deferred dependency-detection before Rack startup
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Environment: development
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Dispatcher: delayed_job
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] INFO : Application: dsm_viewer
+[06/28/15 18:50:20 -0700 Beckys-MacBook-Air.local (61163)] WARN : Agent configured not to send data in this environment.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Environment: development
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Dispatcher: unicorn
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Application: dsm_viewer
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] WARN : Agent configured not to send data in this environment.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing ActiveJob instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : New Relic Agent Developer Mode enabled.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Net instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing deferred Rack instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing ActiveJob instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing ActiveRecord 4 instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing DelayedJob instrumentation [part 1/2]
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Net instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing deferred Rack instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Rack::Builder middleware instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Rails 3+ middleware instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Rails 4 Controller instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Finished instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Rails 4 view instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing Rails 4 Error instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Finished instrumentation
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61350)] INFO : Doing deferred dependency-detection before Rack startup
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Installing DelayedJob instrumentation [part 2/2]
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Starting the New Relic agent in "development" environment.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Reading configuration from config/newrelic.yml (/Users/becky/Work/glowing-octo-dubstep)
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Environment: development
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Dispatcher: delayed_job
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] INFO : Application: dsm_viewer
+[06/28/15 19:01:44 -0700 Beckys-MacBook-Air.local (61351)] WARN : Agent configured not to send data in this environment.

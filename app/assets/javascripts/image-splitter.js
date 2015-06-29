@@ -1,4 +1,8 @@
-$(window).load(function() {
+$(window).on("load", function() {
+
+  // Swap out loading screen for real page
+  $('.waiting').hide();
+  $('.loaded').show();
 
   var ImageMaskSlider =  function(element) {
     this.element = element;
@@ -33,5 +37,5 @@ $(window).load(function() {
       drag: this.updateMask.bind(this)
     });
   };
-  new ImageMaskSlider($('#demoMaskSlider'));
+  new ImageMaskSlider($('.image-mask-slider'));
 });

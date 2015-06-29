@@ -1,0 +1,11 @@
+<p>
+    <i> Slide to Reveal </i>
+</p>
+<div id="<%=@composite.id%>ImageMaskSlider" class="image-mask-slider full-width">
+    <div class="container">
+      <img class="base" src="<%= @composite.base_image.url %>" />
+      <img class="mask" src="<%= @composite.mask_image.url %>" />
+      <div class="slider"></div>
+    </div>
+</div>
+

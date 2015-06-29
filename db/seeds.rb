@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+CompositeImage.create(
+  name: 'Demo DSM Image',
+  base_image: File.new(Rails.root + 'ortho.png'),
+  mask_image: File.new(Rails.root + 'dsm.png')
+)

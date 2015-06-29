@@ -11,10 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150628015146) do
+ActiveRecord::Schema.define(version: 20150629005010) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "composite_images", force: :cascade do |t|
+    t.string   "name",                    null: false
+    t.string   "base_image_file_name",    null: false
+    t.string   "base_image_content_type", null: false
+    t.integer  "base_image_file_size",    null: false
+    t.datetime "base_image_updated_at",   null: false
+    t.string   "mask_image_file_name",    null: false
+    t.string   "mask_image_content_type", null: false
+    t.integer  "mask_image_file_size",    null: false
+    t.datetime "mask_image_updated_at",   null: false
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
+  end
+
+  add_index "composite_images", ["name"], name: "index_composite_images_on_name", unique: true, using: :btree
 
   create_table "delayed_jobs", force: :cascade do |t|
     t.integer  "priority",   default: 0, null: false
