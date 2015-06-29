@@ -1,0 +1,22 @@
+.image-mask-slider {
+  position: relative;
+
+  .mask, .base {
+    position: absolute;
+    padding: 16px;
+  }
+
+  .mask{
+    z-index: 1;
+  }
+  .base {
+    z-index: 0;
+  }
+
+  .slider {
+    background-image: url('/slider.png');
+    height: 32px;
+    width: 32px;
+    z-index: 10;
+  }
+}

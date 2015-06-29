@@ -2,7 +2,9 @@
 
 @import "normalize-rails";
 @import "bourbon";
+@import "jquery-ui";
 @import "base/grid-settings";
 @import "neat";
 @import "base/base";
-@import "refills/flashes";
+//@import "refills/flashes";
+@import "image-splitter";
