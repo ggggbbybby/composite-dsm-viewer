@@ -40,6 +40,9 @@ GEM
     airbrake (4.1.0)
       builder
       multi_json
+    annotate (2.6.10)
+      activerecord (>= 3.2, <= 4.3)
+      rake (~> 10.4)
     arel (6.0.0)
     autoprefixer-rails (5.1.11)
       execjs
@@ -277,6 +280,7 @@ PLATFORMS
 
 DEPENDENCIES
   airbrake
+  annotate
   autoprefixer-rails
   awesome_print
   bourbon (~> 4.2.0)
