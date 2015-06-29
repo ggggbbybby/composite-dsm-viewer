@@ -4,8 +4,7 @@ $(window).on("load", function() {
   $('.waiting').hide();
   $('.loaded').show();
 
-  var ImageMaskSlider =  function(element) {
-    this.element = element;
+  var CompositeImageSlider =  function(element) {
     this.base = element.find('img.base');
     this.mask = element.find('img.mask');
     this.dimensions = {
@@ -15,7 +14,6 @@ $(window).on("load", function() {
 
     // Position slider in center of image + set initial mask
     // slider is 32px wide, so any ±16 is for centering purposes
-
     this.slider = element.find('.slider');
     this.slider.css({
       top: this.dimensions.height / 2,
@@ -29,7 +27,6 @@ $(window).on("load", function() {
       );
     };
 
-
     this.slider.draggable({
       axis: 'x',
       containment: 'parent',
@@ -37,5 +34,6 @@ $(window).on("load", function() {
       drag: this.updateMask.bind(this)
     });
   };
-  new ImageMaskSlider($('.image-mask-slider'));
+
+  new CompositeImageSlider($('.image-mask-slider'));
 });
