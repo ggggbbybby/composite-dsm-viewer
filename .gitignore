@@ -1,0 +1,4 @@
+tmp/*
+.idea/*
+log
+public/images/composite_images/

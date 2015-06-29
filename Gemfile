@@ -12,9 +12,11 @@ gem "flutie"
 gem "high_voltage"
 gem "i18n-tasks"
 gem "jquery-rails"
+gem "jquery-ui-rails"
 gem "neat", "~> 1.7.0"
 gem "newrelic_rpm", ">= 3.9.8"
 gem "normalize-rails", "~> 3.0.0"
+gem "paperclip"
 gem "pg"
 gem "rails", "4.2.1"
 gem "recipient_interceptor"
@@ -39,6 +41,7 @@ group :development, :test do
   gem "factory_girl_rails"
   gem "pry-rails"
   gem "rspec-rails", "~> 3.1.0"
+  gem "annotate"
 end
 
 group :test do
